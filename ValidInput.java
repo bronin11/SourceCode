@@ -10,11 +10,11 @@ public class ValidInput {
 		
 		while (input < 50 || input > 300) {
 			
-			System.out.println("Oops, that number wasn't between 50 and 300. Try again.");
+			System.out.println("No! Try again.");
 			input = scanner.nextInt();
 		}
 		
-		System.out.println("The number you typed in was: " + input);
+		System.out.println("Yes! The number you typed in was: " + input);
 		}
 
 }
